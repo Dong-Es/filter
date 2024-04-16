@@ -35,7 +35,7 @@ export default function DataList() {
             <br /><br />
             <div className='card'>
                 {data.map((user) => (
-                    <Card key={user.id} sx={{ height: '200px' }}>
+                    <Card key={user.id} className='user-card'>
                         <div style={{ padding: '10px 20px' }}>
                             <p>{user.name}</p>
                         </div>
